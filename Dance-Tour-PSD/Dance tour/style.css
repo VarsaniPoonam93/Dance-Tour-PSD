@@ -1,0 +1,680 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.logo img {
+    width: 90px;
+    vertical-align: middle;
+}
+
+.header {
+    background-color: #303030;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify {
+    justify-content: space-between;
+}
+
+
+.link ul li {
+    display: inline;
+    padding: 0 15px;
+}
+
+.link ul li a {
+    /* display: inline; */
+    padding: 10px 10px;
+    transition: all .5s;
+    color: #a39191;
+    color: #fff;
+}
+
+.link ul li a:hover {
+    outline: 1px solid #a39191
+}
+
+.icon i {
+    color: #fff;
+    padding: 10px;
+}
+
+/* .link ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.link ul li a:hover {
+    
+    'color: #a39191;
+    outline: 1px solid #a39191';
+    padding: 0 20px;
+    font-family: 'Oswald', sans-serif;
+
+} */
+
+.col-40 {
+    width: 100%;
+
+}
+
+.col-30 {
+    width: 100%;
+
+}
+
+
+.col-50 {
+    width: 100%;
+}
+
+.navi {
+    line-height: 60px;
+}
+
+.icon i:hover {
+    color: #fff;
+    /* font-size: 25px; */
+    outline: 1px solid #a39191;
+}
+
+.sec1 {
+    background-image: url(img/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.title {
+    /* padding: 50px 0; */
+    /* margin: 200px 0 100px 50px; */
+
+
+
+}
+
+.title h1 {
+    font-family: 'Oswald', sans-serif;
+    color: lavender;
+    font-weight: 700;
+    text-shadow: 10px 5px 10px #303030;
+}
+
+.title p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    /* width: 41%; */
+    font-size: 25px;
+
+}
+
+.title button {
+    background-color: rgb(191, 72, 29);
+    padding: 10px 45px;
+    margin: 40px 0;
+    color: white;
+    font-size: 20px;
+    border: none;
+
+}
+
+
+.sec2 {
+    background-color: rgb(236, 74, 16);
+    padding-bottom: 50px;
+    overflow: hidden;
+
+}
+
+.shape-re {
+    position: relative;
+}
+
+.layer {
+    position: relative;
+}
+
+.layer img {
+    position: absolute;
+}
+
+.dance {
+    padding: 20px 0;
+
+}
+
+.dance h2 {
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.dance p {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    /* width: 51%; */
+
+
+}
+
+
+.cart img {
+    width: 100%;
+
+
+}
+
+.bg {
+    background-color: #303030;
+}
+
+.cart h3 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: wheat;
+    font-size: 25px;
+
+}
+
+.cart p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+.sec3 {
+    background-color: #303030;
+    padding-bottom: 60px;
+}
+
+.layer1 {
+    position: relative;
+    display: none;
+}
+
+.layer1 img {
+    position: absolute;
+
+}
+
+.layer2 {
+    position: relative;
+    top: 200px;
+
+
+}
+
+.layer2 img {
+    position: absolute;
+    right: 0;
+}
+
+.pricing{
+    padding: 50px 0;
+}
+
+
+.pricing h4 {
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+
+    text-align: center;
+
+}
+
+.pricing p {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+    /* width: 51%; */
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.primg {
+    background-color: orangered;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.primg h5 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    padding: 30px 0 0 0;
+}
+
+.primg p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    /* width: 70%; */
+    margin: 0 auto;
+    padding: 15px 10px;
+
+}
+
+.primg button {
+    background-color: #303030;
+    padding: 10px 90px;
+    font-size: 30px;
+}
+
+
+
+.sec4 {
+    background-color: orangered;
+
+
+}
+
+.layer3 {
+    position: relative;
+    top: 160px;
+    left: 150px;
+    /* display: none; */
+}
+
+.layer3 img {
+    position: absolute;
+
+
+}
+
+
+.sec5 {
+
+    background-color: orangered;
+
+}
+
+.layer4 {
+    position: relative;
+    bottom: 90px;
+
+}
+
+.layer4 img {
+    position: absolute;
+
+
+}
+
+
+.amazingimg img {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 999;
+
+}
+
+
+.read-box {
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.read{
+    width: 58%;
+}
+
+.read h6 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #ffffff;
+    text-shadow: 5px 7px 10px #303030;
+
+}
+
+.read p {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.bbtn button {
+    background-color: #303030;
+    padding: 20px 70px;
+    color: #fff;
+    margin: 50px 0;
+}
+
+
+.bestdance {
+    width: 60%;
+    margin: 17rem auto;
+}
+
+
+
+.bestdance h6 {
+
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #ffffff;
+    text-shadow: 5px 7px 10px #303030;
+
+}
+
+.bestdance p {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+
+
+.bestdance button {
+    background-color: #303030;
+    padding: 20px 70px;
+    margin: 50px 0;
+
+}
+
+
+
+.best img {
+    width: 100%;
+    display: block;
+}
+
+.sec6 {
+    background-color: #303030;
+    /* margin: 7rem 12rem 3rem 12rem; */
+    padding: 50px 0;
+
+}
+
+.our {
+    color: white;
+    padding: 50px 50px;
+}
+
+.our h6 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.our p {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    /* width: 48%; */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.club {
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+
+
+}
+
+.club h3 {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    /* padding: 30px 0; */
+
+}
+
+.club h4 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.sec7 {
+    background-image: url(img/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(7\).png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0;
+    background-color: #e8631c;
+    background-blend-mode: multiply;
+    /* margin: auto; */
+}
+
+.new {
+    /* margin: 100px 0; */
+    text-align: center;
+    /* padding: 90px 0; */
+    color: white;
+}
+
+.new p {
+    /* width: 50%; */
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    /* margin-top: 90px; */
+    /* margin-bottom: 30px; */
+
+}
+
+.new h5 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    text-align: c enter;
+    margin: 40px 0 0px 0;
+
+    padding-bottom: 50px;
+}
+
+.sec8 {
+    background-color: #e8631c;
+    padding: 50px 0;
+    overflow: hidden;
+
+
+}
+
+.layersub {
+    position: relative;
+
+}
+
+.layersub img {
+    position: absolute;
+
+
+
+}
+
+.layersub2 {
+    position: relative;
+
+}
+
+.layersub2 img {
+    position: absolute;
+    right: 0;
+}
+
+.bgim {
+    position: relative;
+}
+
+.sub{
+    padding: 0 50px;
+}
+
+.sub h2 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    /* color: white; */
+    text-align: center;
+    /* padding-top: 90px; */
+    color: white;
+
+}
+
+.sub p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    /* width: 47%; */
+    margin: 0 auto;
+    padding: 30px 0px;
+    color: white;
+}
+
+
+.input-box {
+    /* width: 90%; */
+    /* margin: 75px auto; */
+    text-align: center;
+
+}
+
+.input-box input {
+    padding: 10px 50px;
+    border: 0;
+    background-color: #fff;
+    color: #303030;
+    text-transform: capitalize;
+    outline: none;
+    /* margin-left: 10rem; */
+    box-shadow: 10px 5px 10px#303030;
+
+
+}
+
+.input-box button {
+
+    background-color: #303030;
+    color: lavender;
+    padding: 13.5px 35px;
+    text-transform: capitalize;
+    /* font-size: 25px; */
+    /* margin-top: 25px; */
+    font-weight: 400;
+    box-shadow: 10px 5px 10px#303030;
+}
+
+.input-box a :hover {
+    /* background-color: #953704b2; */
+
+}
+
+.sec9 {
+    padding: 50px 0;
+    background-color: #303030;
+}
+
+
+/* .col-20{
+        width: 20%;
+    } */
+
+.musi h3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    padding: 15px 0;
+    /* text-align: center; */
+}
+
+.musi p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    /* width: 60%; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
+
+
+
+
+}
+
+.about {
+
+    color: #fff;
+    padding: 15px 0;
+
+}
+
+.about h3 {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    /* text-align: center; */
+}
+
+.abohis {
+    font-size: 18px;
+    padding: 15px 0;
+
+}
+
+.abohis ul {
+    display: inline-block;
+}
+
+
+.abohis ul li {
+    padding: 5px 0;
+    display: block;
+}
+
+.icon2 {}
+
+.icon2 i {
+    background-color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+    margin: 20px 0;
+
+}
+
+.flex {
+    display: flex;
+}

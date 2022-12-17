@@ -1,0 +1,198 @@
+/* // Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) {
+
+    .container {
+        width: 280px;
+        margin: 
+        
+        0 auto;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .title h1 {
+        font-size: 4.5rem;
+    }
+
+    .col-50 {
+        width: 100%;
+    }
+
+    .col-30 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .col-40 {
+        width: 100%;
+    }
+
+    .col-20 {
+        width: 100%;
+    }
+
+    .input-box input {
+        margin: 0;
+    }
+
+    .layer1,
+    .layer3,
+    .layer4 {
+        display: none;
+    }
+
+
+    /* .input-box{
+        padding: 25px;
+    } */
+
+    .new h5 {
+        font-size: 40px;
+    }
+
+    .read {
+        width: 70%;
+    }
+
+    .primg button {
+        padding: 10px 50px;
+    }
+
+    .input-box button {
+        margin-top: 15px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        width: 548px;
+        margin: 0 auto;
+    }
+
+    .col-50 {
+        width: 48%;
+    }
+
+    .col-30 {
+        width: 48%;
+        margin-bottom: 15px;
+    }
+
+    .col-40 {
+        width: 100%;
+    }
+
+    .col-20 {
+        width: 50%;
+    }
+
+    .new {
+        font-size: 25px;
+        /* padding: 0 30px; */
+        padding: 70px 50px;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        width: 748px;
+        margin: 0 auto;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .col-30 {
+        width: 48%;
+        margin-bottom: 15px;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+
+    .col-20 {
+        width: 50%;
+    }
+
+    .input-box button {
+        margin-top: 0px !important;
+    }
+
+
+    .link {
+        display: block;
+    }
+
+    .title{
+        padding: 50px 50px 50px 0;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .container {
+        width: 980px;
+        margin: 0 auto;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .col-30 {
+        width: 30%;
+        /* margin-bottom: 15px; */
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+
+    .col-20 {
+        width: 20%;
+    }
+
+    .title{
+        padding: 50px 50px 0 0;
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        width: 1240px;
+        margin: 0 auto;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+    .col-30 {
+        width: 30%;
+    }
+
+    .col-40 {
+        width: 40%;
+        padding: 0 50px 0 0;
+    }
+
+    .col-20 {
+        width: 20%;
+    }
+
+
+}
+
+/* // XX-Large devices () */
+@media (min-width: 1400px) {
+    
+}
